@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Steam Dashboard</title>
+    <style>
+        body {
+            background-color: #1b2838; /* Цвет в стиле Steam */
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        a {
+            display: block;
+            padding: 20px 40px;
+            background-color: #2a475e;
+            color: #66c0f4;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.2s;
+            border: 1px solid transparent;
+        }
+        a:hover {
+            background-color: #c7d5e0;
+            color: #1b2838;
+        }
+        h2 { margin-bottom: 30px; color: #c7d5e0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Быстрый доступ к ИИ</h2>
+        <div class="links-grid">
+            <a href="https://gemini.google.com/app?hl=ru" target="_blank">Google Gemini</a>
+            <a href="https://chat.qwen.ai/" target="_blank">Qwen AI</a>
+        </div>
+    </div>
+</body>
+</html>
